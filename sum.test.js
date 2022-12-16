@@ -21,4 +21,11 @@ describe('testing matchers', ()=>{
 })
 
 
+describe('Strings', ()=>{
+    it('there is not I in team', ()=>{
+        expect('team').not.toMatch(/I/);
+    })
+})
+
+
 
