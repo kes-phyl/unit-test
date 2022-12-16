@@ -36,3 +36,12 @@ describe('array', ()=>{
 })
 
 
+function compileAndroidCode(){
+    throw new Error('You are using the wrong JDK!')
+}
+
+describe('exceptions', ()=>{
+    it('compiling goes as expected', ()=>{
+        expect(()=> compileAndroidCode()).toThrow();
+    })
+})
