@@ -27,5 +27,12 @@ describe('Strings', ()=>{
     })
 })
 
+describe('array', ()=>{
+    it('if an array contains an element', ()=>{
+        const currentTags = ['H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'P','LI', 'A']
+        const tags = ['H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'P','LI', 'A']
+        expect(currentTags).toEqual(tags);
+    })
+})
 
 
