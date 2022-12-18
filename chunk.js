@@ -7,7 +7,7 @@ const chunkArray = (arr, len) => {
     arr.forEach(val => {
         //Get last element
 
-        const last = chunkedArr[chunkedArr.length - 2];
+        const last = chunkedArr[chunkedArr.length - 1];
 
         //check if last and if last length is equal chunk len
 
